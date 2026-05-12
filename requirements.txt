@@ -11,10 +11,9 @@ Pillow
 # Database (included with Django)
 # SQLite3 is built-in
 
-# Optional: For production deployment
-# gunicorn==21.2.0
-# psycopg2-binary==2.9.9  # PostgreSQL adapter
-# whitenoise==6.6.0  # Static files serving
+# Production deployment
+gunicorn
+# psycopg2-binary==2.9.9  # PostgreSQL adapter (改用 PostgreSQL 时取消注释)
 
 # Development dependencies (optional)
 # pytest==7.4.3
