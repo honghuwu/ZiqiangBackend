@@ -1,0 +1,23 @@
+# Django and DRF
+Django==4.2.26
+djangorestframework
+djangorestframework-simplejwt
+
+# Email and utilities
+python-dotenv
+django-cors-headers
+Pillow
+
+# Database (included with Django)
+# SQLite3 is built-in
+
+# Optional: For production deployment
+# gunicorn==21.2.0
+# psycopg2-binary==2.9.9  # PostgreSQL adapter
+# whitenoise==6.6.0  # Static files serving
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# pytest-django==4.7.0
+# black==23.12.1
+# flake8==6.1.0
