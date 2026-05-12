@@ -10,4 +10,4 @@ errorlog = "logs/gunicorn-error.log"
 accesslog = "logs/gunicorn-access.log"
 loglevel = "info"
 
-proc_name = "ziqiang"
+proc_name = "zqbackend"

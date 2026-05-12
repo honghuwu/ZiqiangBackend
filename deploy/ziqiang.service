@@ -1,13 +1,13 @@
 [Unit]
-Description=Ziqiang Academy Backend
+Description=ZQ Backend
 After=network.target
 
 [Service]
 User=www-data
 Group=www-data
-WorkingDirectory=/opt/ziqiang
-EnvironmentFile=/opt/ziqiang/.env
-ExecStart=/opt/ziqiang/venv/bin/gunicorn core.wsgi:application --config /opt/ziqiang/deploy/gunicorn.conf.py
+WorkingDirectory=/opt/ZQbackend
+EnvironmentFile=/opt/ZQbackend/.env
+ExecStart=/opt/ZQbackend/venv/bin/gunicorn core.wsgi:application --config /opt/ZQbackend/deploy/gunicorn.conf.py
 ExecReload=/bin/kill -s HUP $MAINPID
 Restart=always
 RestartSec=5
